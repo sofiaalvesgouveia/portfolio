@@ -1,61 +1,34 @@
 <!DOCTYPE html>
 <html lang="pt">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio – Sofia Gouveia</title>
-    <link rel="stylesheet" href="style.css">
-     <link rel="stylesheet" href="https://use.typekit.net/urf6mci.css">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://use.typekit.net/urf6mci.css" />
     <script src="script.js" defer></script>
-    <link rel="icon" type="image/png" href="imagens/iconB.png">
-</head>
-<body>
-
-<div class="cursor" id="cursor"></div>
-<div class="bodyIndex">
-
-    <div class="menu">
-       <div> <a href="index.html" class="sofia"><h1>Sofia Gouveia</h1></a></div>
-       <div class="mDireita"><a href="sobre.html" class="sobre"><h1>About</h1></a>
-        <button id="darkModeToggle"></button> </div>  
+    <link rel="icon" type="image/png" href="imagens/iconB.png" />
+  </head>
+  <body>
+    <div id="overlay">
+      This site is allergic to small screens.<br />
+      Try a computer before it sneezes
     </div>
-    <hr>
+    <div id="raspar">(scratch to reveal)</div>
 
-    <nav class="projetos">
-  <ul>
-    <li><a href="ta-fechado.html">
-        <span class="ano">2024</span>
-        <span class="titulo" id="ta-fechado">Tá fechado</span>
-      </a>
-    </li>
-    <li><a href="arquivista.html">
-        <span class="ano">2025</span>
-        <span class="titulo" id="arquivista">Arquivista</span>
-      </a>
-    </li>
-    <li><a href="virgem-que-pariu.html">
-        <span class="ano">2023</span>
-        <span class="titulo" id="virgem">Virgem que pariu</span>
-      </a>
-    </li>
-    <li><a href="amor-perfeito.html">
-        <span class="ano">2024</span>
-        <span class="titulo" id="amorperfeito">Amor perfeito</span>
-      </a>
-    </li>
-    <li><a href="tres-ficcoes.html">
-        <span class="ano">2023</span>
-        <span class="titulo">Três Ficções</span>
-      </a>
-    </li>
-    </ul>
-</nav>
-<div class="aparece" id="apareceTaFechado"><img class="virgem" src="imagens/FEC001.jpg"> <img class="virgem2" src="imagens/FEC006.jpg"></div>
-<div class="aparece" id="apareceVirgem"><img class="virgem" src="imagens/aaaa.png"> <img class="virgem2" src="imagens/mimi.png"></div>
-<div class="aparece" id="apareceAmor"><img class="amorperfeito" src="imagens/06.JPG"> <img class="amorperfeito2" src="imagens/12.JPG"></div>
-<div class="aparece" id="apareceArquivo"><img class="arquivista" src="imagens/arquivista.png"> <img class="arquivista2" src="imagens/arquivista2.png"></div>
+    <div class="bodyInicial">
+      <div class="cursor" id="cursor"></div>
 
+      <div class="logo">
+        <a href="inicial.html"
+          ><h1>
+            Hello, i'm Sofia Gouveia. I am a Porto based communication designer.
+            Click here to see more about me and my work!
+          </h1></a
+        >
+      </div>
+    </div>
 
-</div>
-</body>
+    <canvas id="telaCor"></canvas>
+  </body>
 </html>
