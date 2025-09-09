@@ -26,10 +26,12 @@
   align-items: center;
   z-index: 105;
   text-align: center;
-  background-color: #121212;
-  color: white;
+  background-color: white;
+  color: rgb(0,0,255);
   font-family: NeueHaasMedium;
   font-size: 13px;
+  line-height: 1.2;
+  text-decoration: underline;
 }
 
 body {
